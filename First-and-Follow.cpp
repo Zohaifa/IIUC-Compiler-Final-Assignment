@@ -17,7 +17,7 @@ void findFirst(char c) {
         } else {
             if (FIRST[prod[0]].empty())
                 findFirst(prod[0]);
-git
+
             for (char x : FIRST[prod[0]])
                 FIRST[c].insert(x);
         }
